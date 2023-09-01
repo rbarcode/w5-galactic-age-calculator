@@ -8,4 +8,9 @@ export class MercuryCalc {
     this.pastMercuryYears = (0).toFixed(2);
     this.futureMercuryYears = (0).toFixed(2);
   }
+
+  calcYearsSinceBday(previousBday) {
+
+  }
+
 }
