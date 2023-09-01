@@ -14,7 +14,8 @@ export class MarsCalc {
   }
 
   calcYearsToBday(futureBday) {
-
+    let futureEarthYears = (futureBday - this.earthAge);
+    this.futureMarsYears = (futureEarthYears / this.marsYear).toFixed(2);
   }
 
 }
