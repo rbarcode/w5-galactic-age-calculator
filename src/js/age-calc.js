@@ -6,7 +6,7 @@ export class AgeCalculator {
   }
 
   calcYearsSinceBday(previousBday) {
-    // this.pastEarthYears = (this.earthAge - previousBday).toFixed(2);
+    this.pastEarthYears = (this.earthAge - previousBday).toFixed(2);
   }
 
   // calcYearsToBirthday(futureBday) {
