@@ -9,7 +9,8 @@ export class JupiterCalc {
   }
 
   calcYearsSinceBday(previousBday) {
-
+    let pastEarthYears = (this.earthAge - previousBday);
+    this.pastJupiterYears = (pastEarthYears / this.jupiterYear).toFixed(2);
   }
 
 }
