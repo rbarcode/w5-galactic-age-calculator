@@ -31,7 +31,11 @@ export class AgeCalculator {
   }
 
   calcYearsToBirthday(futureBday) {
-    
+    this.futureEarthYears = (futureBday - this.earthAge).toFixed(2);
+    this.futureMercuryYears = (this.futureEarthYears / this.mercuryYear).toFixed(2);
+    this.futureVenusYears = (this.futureEarthYears / this.venusYear).toFixed(2);
+    this.futureMarsYears = (this.futureEarthYears / this.marsYear).toFixed(2);
+    this.futureJupiterYears = (this.futureEarthYears / this.jupiterYear).toFixed(2);
   }
 
 
