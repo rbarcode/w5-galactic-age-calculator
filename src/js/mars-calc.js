@@ -9,6 +9,11 @@ export class MarsCalc {
   }
 
   calcYearsSinceBday(previousBday) {
+    let pastEarthYears = (this.earthAge - previousBday);
+    this.pastMarsYears = (pastEarthYears / this.marsYear).toFixed(2);
+  }
+
+  calcYearsToBday(futureBday) {
 
   }
 
