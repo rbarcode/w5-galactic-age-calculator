@@ -10,7 +10,8 @@ export class MercuryCalc {
   }
 
   calcYearsSinceBday(previousBday) {
-
+    let pastEarthYears = (this.earthAge - previousBday);
+    this.pastMercuryYears = (pastEarthYears / this.mercuryYear).toFixed(2);
   }
 
 }
