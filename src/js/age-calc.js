@@ -1,9 +1,8 @@
 export class AgeCalculator {
   constructor(age) {
-    // this.earthAge = age;
-    // this.pastEarthYears = (0).toFixed(2);
-    // this.futureEarthYears = (0).toFixed(2);
-  
+    this.earthAge = age;
+    this.pastEarthYears = (0).toFixed(2);
+    this.futureEarthYears = (0).toFixed(2);
   }
 
   // calcYearsSinceBday(previousBday) {
