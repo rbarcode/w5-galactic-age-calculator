@@ -22,5 +22,9 @@ export class AgeCalculator {
     this.futureJupiterYears = (0).toFixed(2);
   }
 
+  calcYearsSinceBday(previousBday) {
+    
+  }
+
 
 }
