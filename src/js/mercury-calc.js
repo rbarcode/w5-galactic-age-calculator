@@ -14,4 +14,8 @@ export class MercuryCalc {
     this.pastMercuryYears = (pastEarthYears / this.mercuryYear).toFixed(2);
   }
 
+  calcYearsToBday(previousBday) {
+
+  }
+
 }

@@ -16,4 +16,9 @@ describe('MercuryCalc', () => {
     expect(mercuryCalc).toEqual({ earthAge: 20, mercuryYear: .24, mercuryAge: "83.33", pastMercuryYears: "12.50", futureMercuryYears: "0.00" });
   });
 
+  test('should calculate how many years will pass on mercury until a given future birthday', () => {
+    mercuryCalc.calcYearsSinceBday(32);
+    expect(mercuryCalc).toEqual({ earthAge: 20, mercuryYear: .24, mercuryAge: "83.33", pastMercuryYears: "0.00", futureMercuryYears: "50.00" });
+  });
+
 });
