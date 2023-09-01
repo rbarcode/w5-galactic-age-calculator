@@ -9,7 +9,8 @@ export class VenusCalc {
   }
 
   calcYearsSinceBday(previousBday) {
-
+    let pastEarthYears = (this.earthAge - previousBday);
+    this.pastVenusYears = (pastEarthYears / this.venusYear).toFixed(2);
   }
 
 }
