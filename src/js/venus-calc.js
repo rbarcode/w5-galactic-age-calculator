@@ -8,5 +8,8 @@ export class VenusCalc {
     this.futureVenusYears = (0).toFixed(2);
   }
 
+  calcYearsSinceBday(previousBday) {
+
+  }
 
 }
