@@ -11,4 +11,9 @@ describe('JupiterCalc', () => {
     expect(jupiterCalc).toEqual({ earthAge: 20, jupiterYear: 11.86, jupiterAge: "1.69", pastJupiterYears: "0.00", futureJupiterYears: "0.00" });
   });
 
+  test('should calculate how many years have passed on jupiter since a past birthday', () => {
+    jupiterCalc.calcYearsSinceBday(17);
+    expect(jupiterCalc).toEqual({ earthAge: 20, jupiterYear: 11.86, jupiterAge: "1.69", pastJupiterYears: "0.25", futureJupiterYears: "0.00" });
+  });
+
 });
