@@ -14,7 +14,8 @@ export class JupiterCalc {
   }
 
   calcYearsToBday(futureBday) {
-
+    let futureEarthYears = (futureBday - this.earthAge);
+    this.futureJupiterYears = (futureEarthYears / this.jupiterYear).toFixed(2);
   }
 
 }
