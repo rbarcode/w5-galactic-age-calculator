@@ -13,7 +13,7 @@ describe('VenusCalc', () => {
 
   test('should calculate how many years have passed on venus since a past birthday', () => {
     venusCalc.calcYearsSinceBday(17);
-    expect(venusCalc).toEqual({ earthAge: 20, venusYear: .62, venusAge: "32.26", pastVenusYears: "4.84", futureMercuryYears: "0.00" });
+    expect(venusCalc).toEqual({ earthAge: 20, venusYear: .62, venusAge: "32.26", pastVenusYears: "4.84", futureVenusYears: "0.00" });
   });
 
 });
