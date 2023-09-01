@@ -13,4 +13,8 @@ export class JupiterCalc {
     this.pastJupiterYears = (pastEarthYears / this.jupiterYear).toFixed(2);
   }
 
+  calcYearsToBday(futureBday) {
+
+  }
+
 }
