@@ -16,9 +16,9 @@ describe('AgeCaculator', () => {
     expect(ageCalc).toEqual({ earthAge: 20, pastEarthYears: "3.00", futureEarthYears: "0.00"});
   });
 
-  // test('should calculate how many years will pass on earth until a given future birthday', () => {
-  //   ageCalc.calcYearsToBirthday(32);
-  //   expect(ageCalc).toEqual({ earthAge: 20, pastEarthYears: "0.00", futureEarthYears: "12.00"});
-  // });
+  test('should calculate how many years will pass on earth until a given future birthday', () => {
+    ageCalc.calcYearsToBirthday(32);
+    expect(ageCalc).toEqual({ earthAge: 20, pastEarthYears: "0.00", futureEarthYears: "12.00"});
+  });
 
 });

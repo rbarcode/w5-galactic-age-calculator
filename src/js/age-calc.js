@@ -9,9 +9,9 @@ export class AgeCalculator {
     this.pastEarthYears = (this.earthAge - previousBday).toFixed(2);
   }
 
-  // calcYearsToBirthday(futureBday) {
-  //   this.futureEarthYears = (futureBday - this.earthAge).toFixed(2);
-  // }
+  calcYearsToBirthday(futureBday) {
+    // this.futureEarthYears = (futureBday - this.earthAge).toFixed(2);
+  }
 
 
 }
