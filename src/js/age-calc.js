@@ -1,10 +1,10 @@
 export class AgeCaculator {
   constructor(age) {
     this.earthAge = age;
-    this.mercuryAge = undefined;
-		this.venusAge = undefined;
-		this.marsAge = undefined;
-		this.jupiterAge = undefined;
+    this.mercuryAge;
+		this.venusAge;
+		this.marsAge;
+		this.jupiterAge;
 		this.earthYear = 1;
 		this.mercuryYear = .24;
 		this.venusYear = .62;
@@ -12,8 +12,8 @@ export class AgeCaculator {
 		this.jupiterYear = 11.86;
   }
 
-  calcCurrentAge() {
-    
-  }
+  // calcCurrentAge() {
+
+  // }
 
 }
