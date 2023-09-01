@@ -13,4 +13,8 @@ export class VenusCalc {
     this.pastVenusYears = (pastEarthYears / this.venusYear).toFixed(2);
   }
 
+  calcYearsToBday(futureBday) {
+
+  }
+
 }
