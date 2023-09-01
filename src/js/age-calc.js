@@ -10,8 +10,7 @@ export class AgeCalculator {
   }
 
   calcYearsToBirthday(futureBday) {
-    // this.futureEarthYears = (futureBday - this.earthAge).toFixed(2);
+    this.futureEarthYears = (futureBday - this.earthAge).toFixed(2);
   }
-
 
 }
