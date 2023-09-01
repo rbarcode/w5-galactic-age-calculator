@@ -15,7 +15,8 @@ export class MercuryCalc {
   }
 
   calcYearsToBday(futureBday) {
-
+    let futureEarthYears = (futureBday - this.earthAge);
+    this.futureMercuryYears = (futureEarthYears / this.mercuryYear).toFixed(2);
   }
 
 }
