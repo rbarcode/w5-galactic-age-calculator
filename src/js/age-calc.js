@@ -23,7 +23,11 @@ export class AgeCalculator {
   }
 
   calcYearsSinceBday(previousBday) {
-    
+    this.pastEarthYears = (this.earthAge - previousBday).toFixed(2);
+    this.pastMercuryYears = (this.pastEarthYears / this.mercuryYear).toFixed(2);
+    this.pastVenusYears = (this.pastEarthYears / this.venusYear).toFixed(2);
+    this.pastMarsYears = (this.pastEarthYears / this.marsYear).toFixed(2);
+    this.pastJupiterYears = (this.pastEarthYears / this.jupiterYear).toFixed(2);
   }
 
 
