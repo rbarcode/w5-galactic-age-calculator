@@ -8,4 +8,8 @@ export class MarsCalc {
     this.futureMarsYears = (0).toFixed(2);
   }
 
+  calcYearsSinceBday(previousBday) {
+
+  }
+
 }
