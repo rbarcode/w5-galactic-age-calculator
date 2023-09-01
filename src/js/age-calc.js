@@ -11,4 +11,9 @@ export class AgeCaculator {
 		this.marsYear = 1.88;
 		this.jupiterYear = 11.86;
   }
+
+  calcCurrentAge() {
+    
+  }
+
 }
