@@ -14,7 +14,8 @@ export class VenusCalc {
   }
 
   calcYearsToBday(futureBday) {
-
+    let futureEarthYears = (futureBday - this.earthAge);
+    this.futureVenusYears = (futureEarthYears / this.venusYear).toFixed(2);
   }
 
 }
